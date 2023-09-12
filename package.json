@@ -1,29 +1,59 @@
 {
-  "name": "cordova-plugin-filepath",
-  "version": "1.6.0",
-  "description": "Resolve native file paths from content URLs for Cordova platforms",
+  "_from": "git+https://github.com/logisticinfotech/cordova-plugin-filepath.git",
+  "_id": "cordova-plugin-filepath@1.6.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-filepath",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/logisticinfotech/cordova-plugin-filepath.git",
+    "rawSpec": "git+https://github.com/logisticinfotech/cordova-plugin-filepath.git",
+    "saveSpec": "git+https://github.com/logisticinfotech/cordova-plugin-filepath.git",
+    "fetchSpec": "https://github.com/logisticinfotech/cordova-plugin-filepath.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/yapzhenyie/cordova-plugin-filepath.git#d72551e506521d0693523d2a537db619c5e0437f",
+  "_spec": "git+https://github.com/logisticinfotech/cordova-plugin-filepath.git",
+  "_where": "/Volumes/Projects/Projects/JenniferEly/PF",
+  "author": {
+    "name": "Chintan Adatiya",
+    "email": "chitan@logisticinfotech.com"
+  },
+  "bugs": {
+    "url": "https://github.com/hiddentao/cordova-plugin-filepath/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-filepath",
     "platforms": [
       "android"
     ]
   },
-  "scripts": {
-    "version": "sync-cordova-xml package.json plugin.xml --output plugin.xml && git add plugin.xml"
+  "deprecated": false,
+  "description": "Resolve native file paths from content URLs for Cordova platforms",
+  "devDependencies": {
+    "sync-cordova-xml": "^0.4.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hiddentao/cordova-plugin-filepath.git"
-  },
+  "homepage": "https://github.com/hiddentao/cordova-plugin-filepath#readme",
   "keywords": [
     "cordova",
     "file",
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "author": "Ramesh Nair <ram@hiddentao.com>",
   "license": "Apache 2.0",
-  "devDependencies": {
-    "sync-cordova-xml": "^0.4.0"
-  }
+  "name": "cordova-plugin-filepath",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiddentao/cordova-plugin-filepath.git"
+  },
+  "scripts": {
+    "version": "sync-cordova-xml package.json plugin.xml --output plugin.xml && git add plugin.xml"
+  },
+  "version": "1.6.0"
 }
